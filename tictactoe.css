@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  padding: 0;
+}
+/* .gameContainer{
+    display: flex;
+    justify-content: center;
+} */
+.gameSection {
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(
+      rgba(0, 0, 0, 0.342),
+      rgba(255, 255, 255, 0.548)
+    ),
+    url(tictactoe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+  /* padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+     */
+}
+.buttonArea {
+  display: flex;
+  grid-column: 10px;
+  grid-row: 10px;
+  /* border-radius: 10px; */
+  /* border: 2px solid black; */
+  width: fit-content;
+  height: auto;
+}
+.row1,
+.row2 {
+  border-right: 20px solid black;
+}
+.row1 button,
+.row2 button,
+.row3 button {
+  /* border-radius: 10px; */
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  border-bottom: 20px solid black;
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgba(0, 255, 255, 0.76);
+  font-size: 60px;
+  font-family: cursive;
+  font-weight: 900;
+}
+#button3,
+#button6,
+#button9 {
+  border-style: none;
+}
+/* .row1 button:hover,
+.row2 button:hover,
+.row3 button:hover {
+  box-shadow: 10px 5px 5px darkolivegreen;
+} */
+.messageDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.messageDiv button,
+.playOption {
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  border-style: none;
+  background-color: aqua;
+  margin: 2%;
+  font-family: cursive;
+}
+.messageDiv p {
+  width: 100%;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: 900;
+  text-align: left;
+}
+.edit-display {
+  display: none;
+}
+.gameSection .intro {
+  font-family: cursive;
+  font-weight: 900;
+}
